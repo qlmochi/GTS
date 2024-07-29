@@ -1,0 +1,79 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Container */
+.boxcenter {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.row-mb-headeradmin {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Menu */
+.row-mb-menu {
+    margin: 20px 0;
+    background-color: #333;
+}
+
+.row-mb-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.row-mb-menu ul li {
+    float: left;
+}
+
+.row-mb-menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.row-mb-menu ul li a:hover {
+    background-color: #111;
+}
+
+/* Logout button */
+.logout-btn-container {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logout-btn-container a button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.logout-btn-container a button:hover {
+    background-color: #45a049;
+}
